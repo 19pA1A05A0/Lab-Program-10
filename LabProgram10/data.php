@@ -1,11 +1,11 @@
-<?php
+<?php 
     $conn = mysqli_connect("localhost","root","","registration");
 
     if($conn)
         echo "Connected to database!!!";
     else
         echo "Failed to Connect:".mysqli_error();
-
+    
 
     if(isset($_REQUEST['uname']))
     {
